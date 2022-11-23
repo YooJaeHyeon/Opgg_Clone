@@ -3,3 +3,32 @@ body {
     background-color: #5383E8;
     color: white;
 }
+
+.search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search>input {
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+
+.search>button {
+    margin-left: 10px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+.search>button:hover {
+    cursor: pointer;
+}
