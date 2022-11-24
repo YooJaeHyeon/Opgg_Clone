@@ -4,6 +4,15 @@ body {
     color: white;
 }
 
+.opgg_logo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 10rem;
+}
+
 .search {
     position: absolute;
     top: 50%;
@@ -11,7 +20,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.search>input {
+.search>form>input {
     width: 500px;
     height: 50px;
     border-radius: 50px;
@@ -19,7 +28,7 @@ body {
     padding-left: 20px;
 }
 
-.search>button {
+.search>form>button {
     margin-left: 10px;
     border-radius: 50px;
     border: 0px;
@@ -29,6 +38,6 @@ body {
     font-weight: 1000;
 }
 
-.search>button:hover {
+.search>form>button:hover {
     cursor: pointer;
 }
